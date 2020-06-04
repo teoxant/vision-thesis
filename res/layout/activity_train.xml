@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_train">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"   
+    android:orientation="vertical"
+    android:padding="15dip" >
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/start_train_button"
+            android:text="@string/start_train_button"
+            android:drawableLeft="@drawable/ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="67" />
+        <Button 
+            android:id="@+id/show_ppl_button"
+            android:text="@string/show_ppl_button"
+            android:drawableLeft="@drawable/display"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="67" />"
+        <Button
+            android:id="@+id/delete_all_button"
+            android:text="@string/delete_all_button"
+            android:drawableLeft="@drawable/delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="67" />
+    </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>

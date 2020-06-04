@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    
+    <!-- Activity Titles -->
+    <string name="app_name">Vision</string>
+    <string name="title_activity_start_screen">Vision</string>
+    <string name="title_activity_main_screen">MainActivity</string>
+    <string name="title_activity_train">TrainActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_help">HelpActivity</string>    
+    <string name="main_title">ViSioN</string>
+    
+    <!-- Button Labels -->
+    <string name="recognize_button">Recognize</string>
+    <string name="train_button">Train</string>
+    <string name="start_train_button">Start Training</string>
+    <string name="about_button">About</string>
+    <string name="delete_all_button">Delete All</string>
+    <string name="exit_button">Exit</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="return_button">Return</string>
+    <string name="collect_button">Collect Faces</string>
+    <string name="help_button">Help</string>
+    <string name="show_ppl_button">Show people</string>
+    
+    <!-- Other Labels & Texts -->
+    <string name="ETextHint">a-z, A-Z, spaces</string>    
+    <string name="about_dev">Developed by:</string>
+    <string name="about_email">Email:</string>
+    <string name="about_name">Teo Xanthopoulos</string>
+    <string name="about_mail">xanteo2@gmail.com</string>  
+    <string name="about_version">Version:</string>
+    <string name="using">Using:</string>
+    <string name="numOfTrained">Number of trained persons:&#160;&#160;&#160;&#160;</string>
+    <string name="numOfNonTrained">Number of new \'non-trained\' persons:&#160;&#160;&#160;&#160;</string>
+    <string name="lastPersonAdded">Last person added:&#160;&#160;</string>
+    <string name="savedPeople">Saved People:</string>
+    <string name="sure2Delete">Are you sure you want to delete?</string>
+    <string name="errorDeleting">Error deleting some of the files!</string>
+    <string name="succesDeleting">Deleted successfully!</string>
+    <string name="processing">Processing&#8230;</string>
+    <string name="successTraining">Training completed successfully!</string>
+    <string name="errorTraining">An error occurred while training,\n collect some faces or delete all and collect again</string>
+    <string name="aboutVision">About Vision</string>
+    <string name="help">Help</string>
+    <string name="howToUse">How to use</string>
+    <string name="helpTips">Tips</string>
+    <string name="sure2Exit">Are you sure you want to exit?</string>
+    <string name="errorCamera">Fatal error: can\'t open camera!</string>
+    <string name="addPersonName">Add person\'s name</string>
+    <string name="couldNotLoad">Couldn\'t load</string>
+    <string name="trainedModelFile">&#160;TrainedModel</string>
+    <string name="namesFile">&#160;Names</string>
+    <string name="labelsFile">&#160;Labels</string>
+    <string name="trainSomeFacesFirst">.&#160;Train some faces first!</string>
+    
+    <!-- Help Texts -->
+    <string name="how2use">Welcome to Vision!\n<p>An application to detect faces and recognize them when it sees them again. Face recognition is the process 
+        of putting a label to a known face. Just like humans learn to recognize their family, friends and celebrities just 
+        by seeing their face, a computer can learn to recognize a known face.</p>\n\n<p>First of all, you must take some photos of a person. By selecting [Collect Faces], the device\'s camera
+        opens. You can see that if there is a face in front of the camera, the application detects it. Then, by selecting 
+        menu&#8594;[Add Person] a dialog appears and you must put the name of the person you are going to save. After putting a valid name, 
+        the mode turns to collect faces and you can start taking photos. You dont have to press any button for taking photos, the application
+        automatically takes a photo when a face has been detected. You can realize that a photo has been taken when a white flash appears
+        momently inside the green rectangle. Also, at the lower right corner you can see how many photos you shoot for whom. You can add
+        another person by selecting again menu&#8594;[Add Person] and give a valid name. When you finish shooting, it\'s time for training.</p>\n\n<p>By
+        selecting menu&#8594;[Begin Train] you go to the Train screen. The application must learn from the collected faces and export a 
+        trained model which later will be used for recognition. Into the Train screen you can see useful information about how many persons your 
+        application knows and how many new persons you added. Also you can see which was the last person you add. <b>WARNING: You must have at 
+        least 2 persons to begin training, otherwise the application will alert you to collect more faces.</b> By pressing [Start Training] button 
+        into the train screen, the application begins trainning from all the faces you have collected. This may take some time. When training 
+        completed successfully you can go for recognition. Every time you add a new person, you must retrain your application again so the new 
+        person you added, can be recognized. After you trained at least 2 people you can go for recognition</p>\n\n<p>By selecting [Recognize] from the 
+        start screen the camera opens again. Here things are easy, you just have to put a known face in front of the camera and your application can recognize him!</p>
+        </string>
+        <string name="tips"><p>Here are some tips for better training set. Better training set = better recognition.</p>\n\n1.When collecting
+            faces, collect at least 20 photos for <u>each</u> person. Of course you can collect more than 20. The more you collect for each, the
+            better accuracy in recognition you\'ll have.\n2.Try shooting cyclically. Collect faces from left to the right, from up to down.\n3.The type
+            of lighting plays a big role. If you collect faces from someone in night, with less light, then recognize that person in day will be difficult.\n4.Distance
+            also plays a big role. Try to collect faces in constant distance.\n5.Grimace of face can make things more difficult. If you collect some faces from someone with no
+            grimace at all, then try to recognize that person when he smiles, will be tough. If you want to recognize someone when he is serious and when he laughs, then you must collect
+            some photos when he is in both state.</string>
+    
+    
+    <!-- Menu Labels -->
+    <string name="menu_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="addPerson">Add Person</string>
+    <string name="beginTrain">Begin Train</string>
+
+</resources>

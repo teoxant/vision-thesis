@@ -1,0 +1,77 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal" >     
+    <TextView
+        android:id="@+id/devTxtView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="@string/about_dev" />    
+    <TextView
+        android:id="@+id/nameTxtView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="@string/about_name" />    
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal" > 
+    <TextView
+        android:id="@+id/emailTxtView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="@string/about_email" />    
+    <TextView
+        android:id="@+id/mailTxtView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="@string/about_mail" />   
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal" > 
+    <TextView
+        android:id="@+id/versionTxtView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="@string/about_version" />    
+    <TextView
+        android:id="@+id/vNumberTxtView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50" />   
+</LinearLayout>
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent" 
+    android:orientation="horizontal" >
+    <TextView 
+        android:id="@+id/usingTxtView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="@string/using"/>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:src="@drawable/opencv_logo" />    
+</LinearLayout>
+</LinearLayout>

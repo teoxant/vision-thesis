@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="horizontal"
+    android:padding="15dip" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/recognize_button"
+                android:drawableLeft="@drawable/rec3"
+                android:text="@string/recognize_button"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/collect_button"
+                android:drawableLeft="@drawable/collect"
+                android:text="@string/collect_button"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/train_button"
+                android:drawableLeft="@drawable/train"
+                android:text="@string/train_button"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/help_button"
+                android:drawableLeft="@drawable/help"
+                android:text="@string/help_button"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/exit" />
+
+    <ImageButton
+        android:id="@+id/about_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/exit_button"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/info" />
+
+</RelativeLayout>
